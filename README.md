@@ -17,6 +17,7 @@ This is a solution to the [Loopstudios landing page on Frontend Mentor](https://
 
 - Semantic HTML5 markup
 - Accessibility in mind
+- Best code practices ✔
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
