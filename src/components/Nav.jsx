@@ -41,7 +41,7 @@ export default function Nav({ items }) {
       </button>
 
       {/* Mobile Menu */}
-      <aside
+      <div
         className={twMerge(
           `fixed inset-0 z-40 -translate-y-20 bg-tw-black`,
           menuShown ? "lg:hidden" : "hidden"
@@ -61,10 +61,10 @@ export default function Nav({ items }) {
             ))}
           </ul>
         </div>
-      </aside>
+      </div>
 
       {/* Desktop menu */}
-      <aside className={`hidden lg:block`}>
+      <div className={`hidden lg:block`}>
         <ul className={`flex items-center gap-5`}>
           {items.map((item) => (
             <li key={item.id}>
@@ -81,7 +81,7 @@ export default function Nav({ items }) {
             </li>
           ))}
         </ul>
-      </aside>
+      </div>
     </nav>
   );
 }

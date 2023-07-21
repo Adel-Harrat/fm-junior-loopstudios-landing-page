@@ -42,24 +42,28 @@ export default function Footer({ items }) {
             <ul className="mt-12 flex items-center justify-center gap-4 lg:mt-0">
               <li>
                 <a href="#" className={`text-2xl text-tw-white`}>
+                  <span className="sr-only">Facebook link</span>
                   <FaSquareFacebook />
                 </a>
               </li>
 
               <li>
                 <a href="#" className={`text-2xl text-tw-white`}>
+                  <span className="sr-only">Twitter link</span>
                   <FaTwitter />
                 </a>
               </li>
 
               <li>
                 <a href="#" className={`text-2xl text-tw-white`}>
+                  <span className="sr-only">Pinterest link</span>
                   <FaPinterest />
                 </a>
               </li>
 
               <li>
                 <a href="#" className={`text-2xl text-tw-white`}>
+                  <span className="sr-only">Instagram link</span>
                   <FaInstagram />
                 </a>
               </li>
